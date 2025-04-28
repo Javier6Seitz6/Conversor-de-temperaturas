@@ -1,0 +1,50 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente general para la página */
+    background-color: #d7dee6; /* Color de fondo gris claro */
+    padding: 20px; /* Relleno de 20px alrededor de la página */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 400px; /* Ancho máximo de 400px */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    background: white; /* Fondo blanco */
+    padding: 20px; /* Relleno de 20px dentro del contenedor */
+    border-radius: 12px; /* Bordes redondeados de 12px */
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1); /* Sombra sutil alrededor del contenedor */
+}
+
+/* Estilos para los elementos <select>, <input>, y <button> */
+select, input, button {
+    width: 90%; /* Hace que el elemento ocupe todo el ancho disponible */
+    padding: 10px; /* Relleno interno de 10px */
+    margin-top: 10px; /* Espaciado superior de 10px */
+    font-size: 16px; /* Tamaño de la fuente */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris claro */
+}
+
+/* Estilos específicos para el botón */
+button {
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto blanco */
+    cursor: pointer; /* Cambia el cursor cuando pasa sobre el botón */
+    transition: background-color 0.3s; /* Transición suave al pasar el mouse sobre el botón */
+    display: block; /* Hace que el botón sea un bloque */
+    margin-left: auto; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+}
+
+/* Estilos cuando el mouse pasa sobre el botón */
+button:hover {
+    background-color: #0056b3; /* Cambia el color a un azul más oscuro */
+}
+
+/* Estilo para el área de resultado */
+#resultado {
+    margin-top: 20px; /* Espaciado superior de 20px */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Centra el texto */
+    font-size: 18px; /* Tamaño de la fuente */
+}

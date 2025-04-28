@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperaturas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Conversor de Temperaturas</h2>
+
+    <label for="gradoInicial">De:</label>
+    <select id="gradoInicial">
+      <option value="A">Celsius (°C)</option>
+      <option value="B">Fahrenheit (°F)</option>
+      <option value="C">Kelvin (K)</option>
+      <option value="D">Rankine (°R)</option>
+      <option value="E">Réaumur (°Re)</option>
+      <option value="F">Delisle (°D)</option>
+      <option value="G">Newton (°N)</option>
+    </select>
+
+    <label for="gradoFinal">A:</label>
+    <select id="gradoFinal">
+      <option value="A">Celsius (°C)</option>
+      <option value="B">Fahrenheit (°F)</option>
+      <option value="C">Kelvin (K)</option>
+      <option value="D">Rankine (°R)</option>
+      <option value="E">Réaumur (°Re)</option>
+      <option value="F">Delisle (°D)</option>
+      <option value="G">Newton (°N)</option>
+    </select>
+
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" placeholder="Introduce el valor">
+
+    <button onclick="realizarConversion()">Convertir</button>
+
+    <!-- Aquí se mostrará el resultado -->
+    <div id="resultado"></div>
+</div>
+
+<script src="grados.js"></script>
+
+</body>
+</html>
